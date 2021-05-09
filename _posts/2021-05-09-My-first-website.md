@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## 2 weeks and I've built a website
 
