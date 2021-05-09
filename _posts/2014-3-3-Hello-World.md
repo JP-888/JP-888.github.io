@@ -4,7 +4,7 @@ title: My first Github blog!
 published: true
 ---
 
-##My first blog on Github as an Academy Xi student
+##My first blog on Github
 
 So just over two weeks into my journey to becoming a software engineer with Academy Xi and I must tell you, it has been a steep learning curve.
 
