@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Why do I want to be a software engineer
 
@@ -23,4 +23,3 @@ So that’s why I’m here, surrounded by all these young pups eager for them to
 
 Peace,
 JP
- 
