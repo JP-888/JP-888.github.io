@@ -1,6 +1,28 @@
 ---
 layout: default
+published: true
 ---
+
+<script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  // TODO: Replace with your project's customized code snippet
+  var config = {
+    apiKey: "<API_KEY>",
+    authDomain: "<PROJECT_ID>.firebaseapp.com",
+    databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
+    projectId: "<PROJECT_ID>",
+    storageBucket: "<BUCKET>.appspot.com",
+    messagingSenderId: "<SENDER_ID>",
+  };
+  firebase.initializeApp(config);
+
+var timestamp = new Date().valueOf();
+            var obj = {};
+            obj[timestamp] = "1";
+
+            firebase.database().ref('/').update(obj)
+</script>
 
 <div class="posts">
   {% for post in site.posts %}
